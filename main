@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Kumar | Senior SAP Expert & AI Advocate</title>
+    <style>
+        :root {
+            --primary: #0a66c2;
+            --secondary: #004182;
+            --bg: #f3f2ef;
+            --text: #191919;
+            --muted: #666666;
+        }
+        body { font-family: -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--text); margin: 0; line-height: 1.5; }
+        .container { max-width: 900px; margin: 20px auto; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        header { background: linear-gradient(135deg, #0077b5, #00a0dc); height: 160px; }
+        .profile-section { padding: 0 32px 32px; margin-top: -60px; }
+        .profile-img { width: 152px; height: 152px; border-radius: 50%; border: 4px solid white; background: #ddd; object-fit: cover; }
+        h1 { font-size: 28px; margin: 12px 0 4px; }
+        .headline { font-size: 18px; color: var(--muted); margin-bottom: 16px; }
+        .contact-info { font-size: 14px; color: var(--primary); display: flex; gap: 15px; flex-wrap: wrap; }
+        .section { padding: 32px; border-top: 1px solid #ebebeb; }
+        h2 { font-size: 20px; border-bottom: 2px solid var(--primary); display: inline-block; margin-bottom: 20px; }
+        .item { margin-bottom: 24px; }
+        .title { font-weight: 700; font-size: 16px; }
+        .subtitle { color: var(--text); font-weight: 500; }
+        .date { color: var(--muted); font-size: 14px; margin-bottom: 4px; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+        .tag { background: #e7f3ff; color: var(--secondary); padding: 6px 12px; border-radius: 16px; font-size: 14px; font-weight: 600; text-align: center; }
+        a { color: var(--primary); text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header></header>
+    
+    <div class="profile-section">
+        <div class="profile-img"></div>
+        <h1>Amit Kumar</h1>
+        <p class="headline">Senior SAP Expert | SAP BTP MDG S/4HANA Integration | Agentic AI Enablement</p>
+        <div class="contact-info">
+            <span>📍 Berlin Metropolitan Area</span>
+            <span>📧 amit.saptech@gmail.com</span>
+            <span>📞 +4915780549645</span>
+            <a href="https://www.linkedin.com/in/amitkumar50">LinkedIn Profile</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+        
+        <div class="item">
+            <div class="title">Senior SAP Expert, ALM and MDM</div>
+            <div class="subtitle">Rheinmetall · Berlin, Germany</div>
+            <div class="date">December 2023 - Present</div>
+        </div>
+
+        <div class="item">
+            <div class="title">S4 HANA Lead Developer</div>
+            <div class="subtitle">OLX Group · Berlin, Germany</div>
+            <div class="date">February 2022 - November 2023</div>
+        </div>
+
+        <div class="item">
+            <div class="title">Senior Consultant Finance System</div>
+            <div class="subtitle">Delivery Hero · Berlin Area, Germany</div>
+            <div class="date">January 2018 - January 2022</div>
+        </div>
+
+        <div class="item">
+            <div class="title">CRM/ABAP Developer</div>
+            <div class="subtitle">Mettler-Toledo International, Inc</div>
+            <div class="date">May 2016 - December 2017</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education & Certifications</h2>
+        <div class="item">
+            <div class="title">Nano Degree in Data Science</div>
+            <div class="subtitle">Udacity · 2025</div>
+        </div>
+        <div class="item">
+            <div class="title">Nano Degree in AI Project Manager</div>
+            <div class="subtitle">Udacity · 2024</div>
+        </div>
+        <div class="item">
+            <div class="subtitle">SAP Certified Development Associate - ABAP with SAP NW 7.40</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Top Skills</h2>
+        <div class="skills-grid">
+            <div class="tag">Agentic AI Enablement</div>
+            <div class="tag">SAP BTP & MDG</div>
+            <div class="tag">Middleware</div>
+            <div class="tag">Neuro-Linguistic Programming</div>
+            <div class="tag">CRM</div>
+            <div class="tag">S/4HANA Integration</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Honors & Awards</h2>
+        <p><strong>ESTeem AWARD</strong></p>
+        <p><strong>Best Thinking Award</strong> - Contraption competition at IIT Bombay Tech-fest 2004</p>
+    </div>
+</div>
+
+</body>
+</html>
